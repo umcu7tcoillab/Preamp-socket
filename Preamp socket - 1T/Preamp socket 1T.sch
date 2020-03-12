@@ -41,7 +41,7 @@ U 1 1 5E3C375C
 P 6700 3950
 F 0 "J3" H 6672 3882 50  0000 R CNN
 F 1 "Out" H 6672 3973 50  0000 R CNN
-F 2 "_Custom_footprints:PinHeader_1x03_P2.54mm_Vertical_rectangular" H 6700 3950 50  0001 C CNN
+F 2 "_Custom:Preci-dip_PinHeader_1x03_rect" H 6700 3950 50  0001 C CNN
 F 3 "~" H 6700 3950 50  0001 C CNN
 	1    6700 3950
 	-1   0    0    1   
@@ -52,7 +52,7 @@ U 1 1 5E3C4F97
 P 4400 3950
 F 0 "J1" H 4508 4231 50  0000 C CNN
 F 1 "In" H 4508 4140 50  0000 C CNN
-F 2 "_Custom_footprints:PinHeader_1x03_P2.54mm_Vertical_rectangular" H 4400 3950 50  0001 C CNN
+F 2 "_Custom:Preci-dip_PinHeader_1x03_rect" H 4400 3950 50  0001 C CNN
 F 3 "~" H 4400 3950 50  0001 C CNN
 	1    4400 3950
 	1    0    0    -1  
@@ -63,7 +63,7 @@ U 1 1 5E3C5447
 P 5300 3150
 F 0 "J2" V 5362 3194 50  0000 L CNN
 F 1 "VCC" V 5453 3194 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5300 3150 50  0001 C CNN
+F 2 "_Custom:Preci-dip_PinHeader_1x02_rect" H 5300 3150 50  0001 C CNN
 F 3 "~" H 5300 3150 50  0001 C CNN
 	1    5300 3150
 	0    1    1    0   
@@ -148,7 +148,7 @@ U 1 1 5E3C446E
 P 5300 4650
 F 0 "J4" V 5454 4562 50  0000 R CNN
 F 1 "GND" V 5363 4562 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 5300 4650 50  0001 C CNN
+F 2 "_Custom:Preci-dip_PinHeader_1x01_rect" H 5300 4650 50  0001 C CNN
 F 3 "~" H 5300 4650 50  0001 C CNN
 	1    5300 4650
 	0    -1   -1   0   
