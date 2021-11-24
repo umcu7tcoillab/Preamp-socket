@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "2020-02-07"
-Rev ""
+Date "2021-11-24"
+Rev "v0.3"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L _Custom:UMC_logo G1
+L Preamp-socket-1T-rescue:UMC_logo-_Custom G1
 U 1 1 5E3C2881
 P 6450 7250
 F 0 "G1" H 6450 6815 60  0001 C CNN
@@ -25,7 +25,7 @@ F 3 "" H 6450 7250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L _Custom:Preamp U1
+L Preamp-socket-1T-rescue:Preamp-_Custom U1
 U 1 1 5E3C2E6D
 P 5400 3950
 F 0 "U1" H 5744 3996 50  0000 L CNN
@@ -80,16 +80,16 @@ Connection ~ 5300 4450
 $Comp
 L power:GND #PWR0101
 U 1 1 5E3C9C5B
-P 4900 4450
-F 0 "#PWR0101" H 4900 4200 50  0001 C CNN
-F 1 "GND" H 4905 4277 50  0000 C CNN
-F 2 "" H 4900 4450 50  0001 C CNN
-F 3 "" H 4900 4450 50  0001 C CNN
-	1    4900 4450
+P 5100 4450
+F 0 "#PWR0101" H 5100 4200 50  0001 C CNN
+F 1 "GND" H 5105 4277 50  0000 C CNN
+F 2 "" H 5100 4450 50  0001 C CNN
+F 3 "" H 5100 4450 50  0001 C CNN
+	1    5100 4450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4900 4450 5300 4450
+	5100 4450 5300 4450
 $Comp
 L power:GND #PWR0102
 U 1 1 5E3E08AA
@@ -167,40 +167,18 @@ $EndComp
 Wire Wire Line
 	5200 3350 5200 3400
 $Comp
-L _Custom:shield_clip S1
-U 1 1 5E42AE65
-P 6050 3050
-F 0 "S1" H 6000 3300 50  0000 L CNN
-F 1 "shield_clip" H 5850 3200 50  0000 L CNN
-F 2 "_Custom:S0971-46R-shield_clip" V 6000 3050 50  0001 C CNN
-F 3 "" V 6000 3050 50  0001 C CNN
-	1    6050 3050
-	1    0    0    -1  
-$EndComp
-$Comp
-L _Custom:shield_clip S2
+L Preamp-socket-1T-rescue:shield_clip-_Custom S2
 U 1 1 5E42B471
-P 6500 3050
-F 0 "S2" H 6450 3300 50  0000 L CNN
-F 1 "shield_clip" H 6300 3200 50  0000 L CNN
-F 2 "_Custom:S0971-46R-shield_clip" V 6450 3050 50  0001 C CNN
-F 3 "" V 6450 3050 50  0001 C CNN
-	1    6500 3050
+P 6900 3050
+F 0 "S2" H 6850 3300 50  0000 L CNN
+F 1 "shield_clip" H 6700 3200 50  0000 L CNN
+F 2 "_Custom:S0971-46R-shield_clip" V 6850 3050 50  0001 C CNN
+F 3 "" V 6850 3050 50  0001 C CNN
+	1    6900 3050
 	1    0    0    -1  
 $EndComp
 $Comp
-L _Custom:shield_clip S3
-U 1 1 5E42B814
-P 6950 3050
-F 0 "S3" H 6900 3300 50  0000 L CNN
-F 1 "shield_clip" H 6750 3200 50  0000 L CNN
-F 2 "_Custom:S0971-46R-shield_clip" V 6900 3050 50  0001 C CNN
-F 3 "" V 6900 3050 50  0001 C CNN
-	1    6950 3050
-	1    0    0    -1  
-$EndComp
-$Comp
-L _Custom:shield_clip S4
+L Preamp-socket-1T-rescue:shield_clip-_Custom S4
 U 1 1 5E42BC69
 P 7400 3050
 F 0 "S4" H 7350 3300 50  0000 L CNN
@@ -210,32 +188,21 @@ F 3 "" V 7350 3050 50  0001 C CNN
 	1    7400 3050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7400 3150 6950 3150
-Connection ~ 6500 3150
-Wire Wire Line
-	6500 3150 6050 3150
-Connection ~ 6950 3150
-Wire Wire Line
-	6950 3150 6700 3150
 $Comp
 L power:GND #PWR0107
 U 1 1 5E42C2E3
-P 6700 3200
-F 0 "#PWR0107" H 6700 2950 50  0001 C CNN
-F 1 "GND" H 6705 3027 50  0000 C CNN
-F 2 "" H 6700 3200 50  0001 C CNN
-F 3 "" H 6700 3200 50  0001 C CNN
-	1    6700 3200
+P 7600 3150
+F 0 "#PWR0107" H 7600 2900 50  0001 C CNN
+F 1 "GND" H 7605 2977 50  0000 C CNN
+F 2 "" H 7600 3150 50  0001 C CNN
+F 3 "" H 7600 3150 50  0001 C CNN
+	1    7600 3150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6700 3200 6700 3150
-Connection ~ 6700 3150
-Wire Wire Line
-	6700 3150 6500 3150
+	7600 3150 7400 3150
 $Comp
-L _Custom:shield_clip S5
+L Preamp-socket-1T-rescue:shield_clip-_Custom S5
 U 1 1 5E4311CB
 P 7850 3050
 F 0 "S5" H 7800 3300 50  0000 L CNN
@@ -246,7 +213,7 @@ F 3 "" V 7800 3050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L _Custom:shield_clip S6
+L Preamp-socket-1T-rescue:shield_clip-_Custom S6
 U 1 1 5E431539
 P 8300 3050
 F 0 "S6" H 8250 3300 50  0000 L CNN
@@ -261,5 +228,20 @@ Wire Wire Line
 Connection ~ 7400 3150
 Connection ~ 7850 3150
 Wire Wire Line
-	7850 3150 7400 3150
+	7850 3150 7600 3150
+Wire Wire Line
+	6900 3150 7400 3150
+Connection ~ 7600 3150
+$Comp
+L Device:RF_Shield_One_Piece Sh1
+U 1 1 5EAB1F76
+P 7850 4600
+F 0 "Sh1" H 8480 4589 50  0000 L CNN
+F 1 "RF_Shield_One_Piece" H 8480 4498 50  0000 L CNN
+F 2 "_Custom:Shield_15mm_20mm" H 7850 4500 50  0001 C CNN
+F 3 "~" H 7850 4500 50  0001 C CNN
+	1    7850 4600
+	1    0    0    -1  
+$EndComp
+NoConn ~ 7850 5000
 $EndSCHEMATC

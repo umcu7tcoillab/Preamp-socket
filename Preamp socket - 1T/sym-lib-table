@@ -1,2 +1,3 @@
 (sym_lib_table
+  (lib (name Preamp-socket-1T-rescue)(type Legacy)(uri "${KIPRJMOD}/Preamp socket 1T-rescue.lib")(options "")(descr ""))
 )
